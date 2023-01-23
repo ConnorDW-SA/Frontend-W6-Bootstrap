@@ -14,22 +14,13 @@
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<style>
-    .jumbotron {
-        background-image: url("/assets/pexels-markus-spiske-92083.jpg");
-        background-size: contain;
-        width: auto;
-        background-repeat: no-repeat;
-        height: 50vh;
-    }
-</style>
 
 <body>
 
-    <div class="container col-lg-12 ">
+    <div class="container w-100">
 
-        <h1 class="display-4 text-center mb-5 mt-5 text-white">My Album Cards </h1>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5 col-10 mr-auto ml-auto">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,110 +30,79 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="HW.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Favourites</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Best</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Sections
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                 </ul>
-
             </div>
         </nav>
-<h1 
+
+        <h1 class="display-4 text-center mb-5">Album Showcase</h1>
 
 
-        <div class="container-fluid">
-            <div class="row">
+        <div class="row col-lg-12 col-md-10 col-sm-8 p-0 m-0 d-flex justify-content-around">
+            <div class="card" style="height:50vh; width:25vh;">
+                <img class="card-img-top h-25" src="https://picsum.photos/100" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, repellat.
+                    </p>
 
-                <div class="card col-sm 6 col-md-4 mx-md-2 col-lg-2 p-1 my-5 mx-lg-auto px-0" style="width: 18rem;">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/8/8d/Starfucker_reptilians.jpg"
-                        class="card-img-top rounded-circle shadow-lg mb-2 " alt="...">
-                    <div class="card-body text-center">
-                        <h2 class="card-title text-white text-center">Reptilians
-                        </h2>
-
-                        <h5 class="card-artist text-white text-center">STRFKR</h5>
-                        <p class="text-white">Bury Us Alive</p>
-
-
-                        <audio controls class="m-auto text-center" style="padding-right: 10%;">
-                            <source src="assets\starfucker-bury-us-alive-360.mp4" type="audio/mp4" </audio>
-
-                    </div>
-                </div>
-                <div class="card col-sm 6 col-md-4 mx-md-2 col-lg-2 p-1 my-5 mx-lg-auto px-0" style="width: 18rem;">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/5/57/YouForgotItInPeople.jpg"
-                        class="card-img-top rounded-circle shadow-lg mb-2 " alt="...">
-                    <div class="card-body text-center">
-                        <h2 class="card-title text-white text-center">You forgot it in people
-                        </h2>
-
-                        <h5 class="card-artist text-white text-center">Broken Social Scene</h5>
-                        <p class="text-white">Cause = Time</p>
-
-
-                        <audio controls class="m-auto text-center" style="padding-right: 10%;">
-                            <source src="assets\GikWha5TC94_160.mp3" type="audio/mp3" </audio>
-
-                    </div>
-                </div>
-                <div class="card col-sm 6 col-md-4 mx-md-2 col-lg-2 p-1 my-5 mx-lg-auto px-0" style="width: 18rem;">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/9/94/Phoenix_-_Wolfgang_Amadeus_Phoenix.png"
-                        class="card-img-top rounded-circle shadow-lg mb-2 " alt="...">
-                    <div class="card-body text-center">
-                        <h2 class="card-title text-white text-center">Wolfgang Amadeus
-                        </h2>
-
-                        <h5 class="card-artist text-white text-center">Phoenix</h5>
-                        <p class="text-white">1901</p>
-
-                        <audio controls class="m-auto text-center" style="padding-right: 10%;">
-                            <source src="assets\phoenix-1901-official-video-360.mp4" type="audio/mp4" </audio>
-
-                    </div>
-                </div>
-                <div class="card col-sm 6 col-md-4 mx-md-2 col-lg-2 p-1 my-5 mx-lg-auto px-0" style="width: 18rem;">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Cookiemtn.jpg"
-                        class="card-img-top rounded-circle shadow-lg mb-2 " alt="...">
-                    <div class="card-body text-center">
-                        <h2 class="card-title text-white text-center">Return to Cookie Mountain
-                        </h2>
-
-                        <h5 class="card-artist text-white text-center">TV on The Radio</h5>
-                        <p class="text-white">Wolf Like Me</p>
-
-                        <audio controls class="m-auto text-center" style="padding-right: 10%;">
-                            <source src="assets\03hC_Ml8aAM_160.mp3" type="audio/mp4" </audio>
-
-                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
                 </div>
             </div>
+            <div class="card" style="height:50vh; width:25vh;">
+                <img class="card-img-top h-25" src="https://picsum.photos/100" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, repellat.
+                    </p>
 
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="height:50vh; width:25vh;">
+                <img class="card-img-top h-25" src="https://picsum.photos/100" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, repellat.
+                    </p>
 
-        </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" style="height:50vh; width:25vh;">
+                <img class="card-img-top h-25" src="https://picsum.photos/100" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, repellat.
+                    </p>
 
-        <div class="jumbotron">
-
-            <p class="text-white">Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Aliquam placeat,
-                deserunt
-                provident explicabo labore repellat magnam tempore ducimus quisquam sint!</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
 
@@ -154,6 +114,25 @@
 
 
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
         </script>
